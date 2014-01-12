@@ -1,0 +1,49 @@
+<div id="modify-image-pane">
+    <p class="lead">Modify Image</p>
+    <hr>
+    <form novalidate>
+        <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="fa fa-arrows-h"></i>
+                </span>
+                <input class="form-control" type="number" ng-model="currentImage.scaleX"
+                       tooltip="Horizontal scaling" step=".01" tooltip-placement="right"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="fa fa-arrows-v"></i>
+                </span>
+                <input class="form-control" type="number" ng-model="currentImage.scaleY"
+                       tooltip="Vertical scaling" step=".05" tooltip-placement="right"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="fa fa-rotate-right"></i>
+                </span>
+                <input class="form-control" type="number" ng-model="currentImage.angle"
+                       tooltip="Rotation angle" step="5" tooltip-placement="right"/>
+            </div>
+        </div>
+        <div class="form-group pull-bottom">
+            <div class="row">
+                <div class="col-md-4">
+                    <button class="btn btn-danger" ng-click="removeText(currentImage)"
+                            tooltip="Delete image" style="min-width: 50px">
+                        <i class="fa fa-trash-o fa-2x"></i>
+                    </button>
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-warning" ng-click="duplicateText(currentImage)"
+                            tooltip="Clone image"  style="max-width: 50px">
+                        <i class="fa fa-clipboard fa-2x"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

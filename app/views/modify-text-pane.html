@@ -1,0 +1,100 @@
+<div id="modify-text-pane">
+    <p class="lead">Modify Text</p>
+    <hr>
+    <form novalidate>
+        <div class="form-group">
+            <select class="form-control" ng-model="currentText.fontFamily">
+                <option ng-repeat="font in fonts">{{ font }}</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <textarea class="form-control" rows="2" ng-model="currentText.text"></textarea>
+        </div>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-6" style="padding-right: 0">
+                    <div class="input-group input-group-sm">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default dropdown-toggle btn-sm"><i class="fa fa-text-height"></i></button>
+                        </div>
+                        <input type="number" class="form-control" ng-model="currentText.fontSize"/>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="btn-group">
+                        <a class="btn btn-default btn-sm" href="" ng-click="toggleBold(currentText)">
+                            <i class="fa fa-bold"></i>
+                        </a>
+                        <a class="btn btn-default btn-sm" href="" ng-click="toggleItalic(currentText)">
+                            <i class="fa fa-italic"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="input-group input-group-sm" tooltip="Horizontal scaling" tooltip-placement="right">
+                <span class="input-group-addon">
+                    <i class="fa fa-arrows-h"></i>
+                </span>
+                <input type="number" class="form-control"
+                       ng-model="currentText.scaleX" step=".05"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="input-group input-group-sm" tooltip="Vertical scaling" tooltip-placement="right">
+                <span class="input-group-addon">
+                    <i class="fa fa-arrows-v"></i>
+                </span>
+                <input type="number" class="form-control"
+                       ng-model="currentText.scaleY" step=".05"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="btn-group">
+                <a class="btn btn-default" href="" ng-click="alignText('left', currentText)">
+                    <i class="fa fa-align-left"></i>
+                </a>
+                <a class="btn btn-default" href="" ng-click="alignText('center', currentText)">
+                    <i class="fa fa-align-center"></i>
+                </a>
+                <a class="btn btn-default" href="" ng-click="alignText('right', currentText)">
+                    <i class="fa fa-align-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-3">
+                    <button class="btn btn-danger" ng-click="removeText(currentText)"
+                            tooltip="Delete text" style="min-width: 50px">
+                        <i class="fa fa-trash-o fa-2x"></i>
+                    </button>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-warning" ng-click="duplicateText(currentText)"
+                            tooltip="Clone text"  style="max-width: 50px">
+                        <i class="fa fa-clipboard fa-2x"></i>
+                    </button>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-primary" ng-click="toggle()"
+                            tooltip="Text color" style="background-color: {{ currentText.fill }}">
+                        <i ng-class="{ 'fa-toggle-down': colorToggle, 'fa-toggle-up': !colorToggle }"
+                           class="fa fa-2x"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div collapse="colorToggle">
+            <div class="form-group">
+                <div class="btn-group">
+                    <a class="btn btn-default" ng-repeat="color in colorSelection"
+                       style="background-color: {{ color }}; height: 20px"
+                            ng-click="changeTextColor(color, currentText)"></a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

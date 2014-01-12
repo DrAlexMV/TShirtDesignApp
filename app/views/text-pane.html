@@ -1,0 +1,18 @@
+<div id="text-pane">
+    <p class="lead">Text</p>
+    <hr>
+    <form novalidate>
+        <div class="form-group">
+            <textarea class="form-control" placeholder="Type text to add" rows="10"
+                      ng-model="textToAdd.text" required></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-success" ng-click="addText(textToAdd.text)">
+                <i class="fa fa-plus"></i>
+            </button>
+            <button ng-click="resetForm(textToAdd)" class="btn btn-danger">
+                <i class="fa fa-ban"></i>
+            </button>
+        </div>
+    </form>
+</div>

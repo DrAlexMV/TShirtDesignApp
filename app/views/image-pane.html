@@ -1,0 +1,17 @@
+<div id="image-pane">
+    <p class="lead">Upload an Image</p>
+    <hr>
+    <form>
+        <input id="uploadFile" class="form-group" type="file"
+               ng-change="fileSelected()" ng-model="file"/>
+        <button class="btn btn-primary form-control" ng-click="upload()">Upload</button>
+        <hr>
+        <div class="form-group">
+            <label>Preview</label>
+            <a class="thumbnail" href="" style="height: 170px">
+                <img id="uploadPreview" alt=""/>
+            </a>
+        </div>
+        <i class="fa fa-spinner fa-spin fa-2x pull-right" ng-hide="waiting != true"></i>
+    </form>
+</div>

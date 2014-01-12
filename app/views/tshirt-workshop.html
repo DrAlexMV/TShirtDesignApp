@@ -1,0 +1,43 @@
+<div id="tshirt-workshop">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <div class="row">
+                <div class="col-md-4">Logo</div>
+                <div class="col-md-2 col-md-offset-6">
+                    <a href="" style="color: #000000">
+                        <i class="fa fa-refresh fa-2x pull-right" ng-click="rotateShirt(shirtDirection)"
+                           tooltip="Rotate shirt" tooltip-placement="bottom"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="panel-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-md-3">
+                        <div id="selection-pane" class="well">
+                            <new-pane ng-hide="selected != 'newPane'"></new-pane>
+                            <text-pane ng-hide="selected != 'textPane'"></text-pane>
+                            <greek-pane ng-hide="selected != 'greekPane'"></greek-pane>
+                            <color-pane ng-hide="selected != 'colorPane'"></color-pane>
+                            <image-pane ng-hide="selected != 'imagePane'"></image-pane>
+                            <frocket-pane ng-hide="selected != 'frocketPane'"></frocket-pane>
+                            <modify-text-pane ng-hide="selected != 'modifyTextPane'"></modify-text-pane>
+                            <modify-image-pane ng-hide="selected != 'modifyImagePane'"></modify-image-pane>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-8" style="height: 500px">
+                        <div ng-hide="shirtDirection != 'front'">
+                            <img class="background-image" id="front-image-background"/>
+                            <canvas class="shirtCanvas" id="front-shirt-display"></canvas>
+                        </div>
+                        <div ng-hide="shirtDirection != 'back'">
+                            <img class="background-image" id="back-image-background"/>
+                            <canvas class="shirtCanvas" id="back-shirt-display"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

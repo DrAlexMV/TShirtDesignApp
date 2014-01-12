@@ -1,0 +1,16 @@
+<div id="frocket-pane">
+    <p class="lead">Upload a Frocket design</p>
+    <hr>
+    <form>
+        <input id="uploadFrocket" class="form-group" type="file"
+               ng-change="frocketSelected()" ng-model="frocketFile"/>
+        <hr>
+        <div class="form-group">
+            <label>Preview</label>
+            <a class="thumbnail" href="" style="height: 170px">
+                <img id="frocketPreview" alt=""/>
+            </a>
+        </div>
+        <i class="fa fa-spinner fa-spin fa-2x pull-right" ng-hide="waiting != true"></i>
+    </form>
+</div>

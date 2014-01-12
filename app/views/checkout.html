@@ -1,0 +1,141 @@
+<div class="modal-header" style="padding-bottom: 0">
+    <div class="row">
+        <div class="col-md-4">
+            <h4 class="modal-title">Get a quote!</h4>
+        </div>
+        <div class="col-md-7">
+            <progressbar max="100" type="{{ progress.type }}"
+                         value="progress.value" class="progress-striped active"></progressbar>
+        </div>
+    </div>
+</div>
+<div class="modal-body" style="min-height: 300px">
+    <form name="form.checkoutForm">
+        <div ng-show="selectedForm == 0">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="well">
+                        <p class="lead">Tell us the number of shirts of each size that you desire.</p>
+                        <p class="lead">
+                            You have selected: {{ order.numSmall + order.numMedium + order.numLarge }} shirts
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="numSmall">Small</label>
+                        <input class="form-control" id="numSmall" type="number" min="0"
+                               ng-model="order.numSmall"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="numMedium">Medium</label>
+                        <input class="form-control" id="numMedium" type="number" min="0"
+                               ng-model="order.numMedium"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="numLarge">Large</label>
+                        <input class="form-control" id="numLarge" type="number" min="0"
+                               ng-model="order.numLarge"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div ng-show="selectedForm == 1">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="well">
+                        <p class="lead">We offer a selection of different shirt brands for your design.</p>
+                        <p class="lead">If you don't like any of the options, don't worry! Just tell us which one you want.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p class="lead">Brands</p>
+                    <hr>
+                    <div class="radio">
+                        <label>
+                            <input name="brandOptions" type="radio" ng-model="order.shirtBrand"
+                                   value="Gildan" ng-checked="true"/>
+                            Gildan
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input name="brandOptions" type="radio" ng-model="order.shirtBrand"
+                                   value="Comfort Colors"/>
+                            Comfort Colors
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <div class="radio">
+                            <label>
+                                <input name="brandOptions" type="radio" value="true" ng-model="showOther"/>
+                                Other
+                            </label>
+                        </div>
+                        <input class="form-control" ng-model="order.shirtBrand" ng-show="showOther"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div ng-show="selectedForm == 2">
+            <div class="row">
+                <div class="col-md-6">
+                    <a class="thumbnail" ng-hide="!rotate">
+                        <img src="{{ order.frontDesign }}"/>
+                    </a>
+                    <a class="thumbnail" ng-hide="rotate">
+                        <img src="{{ order.backDesign }}"/>
+                    </a>
+                    <a style="cursor: pointer;" href="">
+                        <i class="fa fa-refresh fa-2x" ng-click="rotate = !rotate"></i>
+                    </a>
+                    <span class="lead">Rotate shirt</span>
+                </div>
+                <div class="col-md-5">
+                    <a class="thumbnail">
+                        <img src="{{ order.frocketDesign }}" alt="No frocket uploaded"/>
+                    </a>
+                    <div class="well well-sm">
+                        <i class="fa fa-info"></i>
+                        Preview your designs!
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div ng-show="selectedForm == 3">
+            <div class="row">
+                <div class="col-md-11">
+                    <div class="well">
+                        <p class="lead">
+                            Our team will contact you shortly in regards to your order. Please fill
+                            out the contact form. If you have any comments about the order, include them
+                            in the comments section below.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-11">
+                    <label>Name:<input class="form-control"
+                                       type="text" ng-model="order.name" required/>
+                    </label>
+                    <label>Email:<input class="form-control" type="email"
+                                        ng-model="order.userEmail" required/></label>
+                    <div class="form-group">
+                        <label>
+                            Comments:
+                            <textarea class="form-control" cols="52" ng-model="order.comments"></textarea>
+                        </label>
+                    </div>
+                    <button class="btn btn-success pull-left" ng-click="submitOrder(order)"
+                            tooltip="Submit" tooltip-placement="right">
+                        <i class="fa fa-shopping-cart fa-2x"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="modal-footer">
+    <a ng-click="changeForm(-1)"><i class="fa fa-chevron-left fa-3x"></i></a>
+    <a ng-click="changeForm(1)"><i class="fa fa-chevron-right fa-3x"></i></a>
+</div>
+

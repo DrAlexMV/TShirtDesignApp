@@ -1,0 +1,18 @@
+<div id="tool-pane" class="pane">
+    <nav class="navbar navbar-default">
+        <ul class="nav navbar-nav navbar-left">
+            <li ng-repeat="tool in toolPaneTools" ng-class="{ active: tool.active }">
+                <a href="" ng-click="changeTool($index)" tooltip="{{ tool.tooltip }}" tooltip-placement="top">
+                    <i class="{{ tool.icon }}"></i>
+                </a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right" style="margin-right: 0">
+            <li>
+                <a href="" ng-click="checkout()" tooltip="Get a quote" tooltip-placement="top">
+                    <i class="fa fa-shopping-cart fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>

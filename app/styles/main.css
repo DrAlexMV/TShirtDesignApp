@@ -1,0 +1,103 @@
+#tool-pane .navbar{
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+#tshirt-workshop .panel{
+    min-height: 400px;
+    margin-bottom: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#tshirt-workshop .panel-body {
+    /*background: url('../images/bg.png') repeat 1px 200px;*/
+    min-height: 460px;
+    padding-bottom: 0;
+}
+
+#selection-pane {
+    position: relative;
+    min-height: 500px;
+    max-width: 220px;
+    background-color:rgba(245,245,245,0.6);
+}
+
+.color-square {
+    border: solid 2px #e5e5ee;
+    width: 30px;
+    height: 30px;
+    box-shadow: 4px 4px 2px #888888;
+    cursor: pointer;
+}
+
+#color-list {
+    margin-right: 0;
+    padding: 0px;
+    list-style: none;
+}
+
+.short-field {
+    min-width: 60px;
+}
+
+.pull-bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.im-2x {
+   font-size: 1.8em;
+}
+
+.greek-square {
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 2px #888888;
+    cursor: pointer;
+    background-color: #DDDDDD;
+    border-radius: 5px;
+    margin: 4px;
+}
+
+.greek-letter {
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Symbol;
+    font-size: 3em;
+    width: 100%;
+    left: -10px;
+    padding-left: 10px;
+}
+
+.unstyled-list {
+    padding: 0;
+    list-style: none;
+}
+
+.greek-list {
+    padding: 0;
+    max-height: 290px;
+    overflow-y: scroll;
+    list-style: none;
+    user-select: none;
+}
+
+.product-list {
+    padding: 0;
+    list-style: none;
+    overflow-y: scroll;
+    max-height: 350px;
+}
+
+.background-image {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+}
+
+.shirtCanvas {
+    top: 125px !important;
+    left: 130px !important;
+
+}

@@ -1,0 +1,16 @@
+<div id="new-pane">
+    <p class="lead">Change Product</p>
+    <hr>
+    <form novalidate>
+        <div class="form-group">
+            <ul class="product-list row" style="overflow-y: scroll">
+                <li class="col-md-12 col-md-offset-0"
+                    ng-repeat="product in productList" tooltip="{{ product.tooltip }}" tooltip-placement="right">
+                    <a class="thumbnail" href="" ng-click="changeProduct(product, 'white')">
+                        <img src="{{ product.whiteFrontSrc }}" alt=""/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </form>
+</div>

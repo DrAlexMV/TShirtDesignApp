@@ -1,0 +1,11 @@
+<div id="color-pane">
+    <p class="lead">Shirt Color</p>
+    <hr>
+    <ul class="row" id="color-list">
+        <li class="col-md-4" ng-repeat="color in colors">
+            <div class="color-square well" tooltip="{{ color.name }}" ng-click="changeProductColor(color.name)"
+                 style="background-color: {{ color.code }}">
+            </div>
+        </li>
+    </ul>
+</div>

@@ -9,12 +9,12 @@
     <ignored path="TShirtDesignLab.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/main.html" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1387577924230" ignored="false" />
-    <file path="/dummy.xml" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389523964535" ignored="false" />
+    <file path="/dummy.xml" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389679288243" ignored="false" />
     <file path="/tool-pane.html" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389131902565" ignored="false" />
     <file path="/tool-pane.js" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389132030518" ignored="false" />
-    <file path="/main.css" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389496008192" ignored="false" />
+    <file path="/main.css" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389680736046" ignored="false" />
     <file path="/tshirt-workshop.js" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389553888077" ignored="false" />
-    <file path="/tshirt-workshop.html" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389515305387" ignored="false" />
+    <file path="/tshirt-workshop.html" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389679287658" ignored="false" />
     <file path="$PROJECT_DIR$/.tmp/styles/main.css" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389423709542" ignored="false" />
     <file path="/color-pane.html" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389395981773" ignored="false" />
     <file path="/color-pane.js" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389395906855" ignored="false" />
@@ -22,7 +22,7 @@
     <file path="/text-pane.html" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1388981324871" ignored="false" />
     <file path="$PROJECT_DIR$/../../KineticJS/js/main.js" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1387834028334" ignored="false" />
     <file path="/main.js" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389553419768" ignored="false" />
-    <file path="/index.html" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389470806231" ignored="false" />
+    <file path="/index.html" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389681865808" ignored="false" />
     <file path="/modify-text-pane.js" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389502523716" ignored="false" />
     <file path="/modify-text-pane.html" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389504218461" ignored="false" />
     <file path="/toolEnum.js" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389132039572" ignored="false" />
@@ -33,7 +33,7 @@
     <file path="/modify-image-pane.html" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389506118485" ignored="false" />
     <file path="$PROJECT_DIR$/TShirtDesignLab/dist/bower_components/angular/angular.min.js" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1388280627740" ignored="false" />
     <file path="/Checkout.js" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389554583542" ignored="false" />
-    <file path="/checkout.html" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389554504910" ignored="false" />
+    <file path="/checkout.html" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389680655400" ignored="false" />
     <file path="/greek-pane.html" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389137517471" ignored="false" />
     <file path="/greek-pane.js" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389083219991" ignored="false" />
     <file path="$PROJECT_DIR$/.tmp/styles/style.css" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389423170804" ignored="false" />
@@ -43,6 +43,8 @@
     <file path="/colorpicker.js" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389478639411" ignored="false" />
     <file path="/frocket-pane.html" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389525700015" ignored="false" />
     <file path="/frocket-pane.js" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389525686677" ignored="false" />
+    <file path="$PROJECT_DIR$/.tmp/styles/non-responsive.css" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389679962881" ignored="false" />
+    <file path="$PROJECT_DIR$/.tmp/styles/bootstrap.min.css" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389681723470" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,14 +66,8 @@
             <file leaf-file-name="modify-text-pane.html" pinned="false" current="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/app/views/modify-text-pane.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="74" column="72" selection-start="3487" selection-end="3487" vertical-scroll-proportion="-17.5">
-                    <folding>
-                      <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#form#0;n#div#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#6;n#form#0;n#div#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#6;n#form#0;n#div#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#div#6;n#form#0;n#div#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#7;n#form#0;n#div#0;n#!!top" expanded="true" />
-                    </folding>
+                  <state line="74" column="72" selection-start="3487" selection-end="3487" vertical-scroll-proportion="0.0">
+                    <folding />
                   </state>
                 </provider>
               </entry>
@@ -79,7 +75,7 @@
             <file leaf-file-name="text-pane.html" pinned="false" current="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/app/views/text-pane.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+                  <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
                     <folding />
                   </state>
                 </provider>
@@ -88,7 +84,7 @@
             <file leaf-file-name="tool-pane.html" pinned="false" current="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/app/views/tool-pane.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="14" column="16" selection-start="709" selection-end="709" vertical-scroll-proportion="-8.75">
+                  <state line="14" column="16" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
                     <folding />
                   </state>
                 </provider>
@@ -97,8 +93,9 @@
             <file leaf-file-name="checkout.html" pinned="false" current="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/app/views/checkout.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="120" column="43" selection-start="5580" selection-end="5580" vertical-scroll-proportion="2.0">
+                  <state line="0" column="34" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
                     <folding>
+                      <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
                       <element signature="n#style#0;n#a#2;n#div#0;n#div#0;n#div#2;n#form#0;n#div#1;n#!!top" expanded="true" />
                     </folding>
                   </state>
@@ -108,7 +105,7 @@
             <file leaf-file-name="tshirt-workshop.html" pinned="false" current="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/app/views/tshirt-workshop.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="12" column="13" selection-start="557" selection-end="557" vertical-scroll-proportion="-7.5">
+                  <state line="16" column="6" selection-start="668" selection-end="668" vertical-scroll-proportion="-10.0">
                     <folding>
                       <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                       <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -120,7 +117,7 @@
             <file leaf-file-name="new-pane.html" pinned="false" current="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/app/views/new-pane.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="14" column="10" selection-start="615" selection-end="615" vertical-scroll-proportion="-8.75">
+                  <state line="14" column="10" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
                     <folding />
                   </state>
                 </provider>
@@ -129,10 +126,8 @@
             <file leaf-file-name="frocket-pane.html" pinned="false" current="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/app/views/frocket-pane.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="15" column="5" selection-start="560" selection-end="560" vertical-scroll-proportion="-9.375">
-                    <folding>
-                      <element signature="n#style#0;n#a#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                    </folding>
+                  <state line="15" column="5" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
+                    <folding />
                   </state>
                 </provider>
               </entry>
@@ -151,25 +146,7 @@
       <file leaf-file-name="tshirt-workshop.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/directives/tshirt-workshop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="53" selection-start="3273" selection-end="3273" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image-pane.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/directives/image-pane.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="frocket-pane.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/directives/frocket-pane.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="4" selection-start="806" selection-end="806" vertical-scroll-proportion="0.0">
+            <state line="12" column="31" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -196,16 +173,27 @@
       <file leaf-file-name="Checkout.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/Checkout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="0" selection-start="2905" selection-end="2905" vertical-scroll-proportion="0.0">
+            <state line="82" column="30" selection-start="2823" selection-end="2823" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bower.json" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bower.json">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="222" selection-end="222" vertical-scroll-proportion="0.20954598">
+            <state line="39" column="0" selection-start="1945" selection-end="1945" vertical-scroll-proportion="0.8490566">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="color-pane.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/directives/color-pane.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="21" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -223,7 +211,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="18" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.0">
+            <state line="102" column="0" selection-start="1650" selection-end="1650" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -248,30 +236,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/scripts/directives/modify-text-pane.js" />
-        <option value="$PROJECT_DIR$/app/scripts/directives/modify-image-pane.js" />
         <option value="$PROJECT_DIR$/app/views/modify-image-pane.html" />
         <option value="$PROJECT_DIR$/app/views/modify-text-pane.html" />
-        <option value="$PROJECT_DIR$/app/views/tshirt-workshop.html" />
         <option value="$PROJECT_DIR$/app/scripts/directives/image-pane.js" />
         <option value="$PROJECT_DIR$/app/views/image-pane.html" />
         <option value="$PROJECT_DIR$/app/scripts/directives/frocket-pane.js" />
         <option value="$PROJECT_DIR$/app/views/frocket-pane.html" />
-        <option value="$PROJECT_DIR$/app/styles/main.css" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
         <option value="$PROJECT_DIR$/app/scripts/directives/tshirt-workshop.js" />
-        <option value="$PROJECT_DIR$/app/views/checkout.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/Checkout.js" />
         <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/app/styles/non-responsive.css" />
+        <option value="$PROJECT_DIR$/app/views/tshirt-workshop.html" />
+        <option value="$PROJECT_DIR$/app/views/checkout.html" />
+        <option value="$PROJECT_DIR$/app/styles/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/app/styles/main.css" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
-    <option name="y" value="22" />
-    <option name="width" value="1053" />
-    <option name="height" value="1054" />
+    <option name="x" value="314" />
+    <option name="y" value="212" />
+    <option name="width" value="1488" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -299,7 +287,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -368,70 +355,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TShirtDesignLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TShirtDesignLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TShirtDesignLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TShirtDesignLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="directives" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TShirtDesignLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TShirtDesignLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -442,8 +368,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/styles" />
+      <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
   <component name="RunManager">
@@ -491,13 +417,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="22" width="1053" height="1054" extended-state="6" />
+    <frame x="314" y="212" width="1488" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26407766" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18566553" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -576,40 +502,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/greek-pane.html">
+    <entry file="file://$PROJECT_DIR$/app/views/frocket-pane.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="-0.0">
+        <state line="15" column="5" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/modify-image-pane.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="59" selection-start="440" selection-end="440" vertical-scroll-proportion="-4.375">
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#3;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#3;n#form#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/directives/image-pane.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/image-pane.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="54" selection-start="258" selection-end="258" vertical-scroll-proportion="0.09857612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/new-pane.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="10" selection-start="615" selection-end="615" vertical-scroll-proportion="-8.75">
           <folding />
         </state>
       </provider>
@@ -621,42 +523,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/frocket-pane.html">
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/modify-image-pane.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="5" selection-start="560" selection-end="560" vertical-scroll-proportion="-9.375">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="18" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="9" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tshirt-workshop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="557" selection-end="557" vertical-scroll-proportion="-7.5">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/directives/tshirt-workshop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="53" selection-start="3273" selection-end="3273" vertical-scroll-proportion="0.0">
+        <state line="15" column="4" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -668,33 +537,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/checkout.html">
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="43" selection-start="5580" selection-end="5580" vertical-scroll-proportion="2.0">
-          <folding>
-            <element signature="n#style#0;n#a#2;n#div#0;n#div#0;n#div#2;n#form#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/Checkout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="0" selection-start="2905" selection-end="2905" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/directives/new-pane.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="4" selection-start="2230" selection-end="2230" vertical-scroll-proportion="0.0">
+        <state line="6" column="9" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="222" selection-end="222" vertical-scroll-proportion="0.20954598">
+        <state line="12" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.2635432">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/text-pane.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="831" selection-end="831" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/Checkout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="30" selection-start="2823" selection-end="2823" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tshirt-workshop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="6" selection-start="668" selection-end="668" vertical-scroll-proportion="-10.0">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/tshirt-workshop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="31" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/color-pane.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="21" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/checkout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="34" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#div#0;n#div#0;n#div#2;n#form#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="0" selection-start="1650" selection-end="1650" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1945" selection-end="1945" vertical-scroll-proportion="0.8490566">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

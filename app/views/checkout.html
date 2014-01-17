@@ -110,6 +110,9 @@
                             tooltip="Submit" tooltip-placement="right">
                         <i class="fa fa-shopping-cart fa-2x"></i>
                     </button>
+                    <div class="well well-sm" ng-show="form.checkoutForm.$invalid">
+                        Form incorrect: please make sure all fields are correct
+                    </div>
                 </div>
             </div>
         </div>

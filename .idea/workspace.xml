@@ -9,7 +9,7 @@
     <ignored path="TShirtDesignLab.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/main.html" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1387577924230" ignored="false" />
-    <file path="/dummy.xml" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389862760047" ignored="false" />
+    <file path="/dummy.xml" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389920620493" ignored="false" />
     <file path="/tool-pane.html" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389131902565" ignored="false" />
     <file path="/tool-pane.js" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389132030518" ignored="false" />
     <file path="/main.css" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389830149756" ignored="false" />
@@ -33,7 +33,7 @@
     <file path="/modify-image-pane.html" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389758857900" ignored="false" />
     <file path="$PROJECT_DIR$/TShirtDesignLab/dist/bower_components/angular/angular.min.js" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1388280627740" ignored="false" />
     <file path="/Checkout.js" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389861479374" ignored="false" />
-    <file path="/checkout.html" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389745278821" ignored="false" />
+    <file path="/checkout.html" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389920877301" ignored="false" />
     <file path="/greek-pane.html" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389772676344" ignored="false" />
     <file path="/greek-pane.js" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389772814751" ignored="false" />
     <file path="$PROJECT_DIR$/.tmp/styles/style.css" changelist="dce56437-cd81-4065-af1a-60e517681304" time="1389423170804" ignored="false" />
@@ -101,19 +101,19 @@
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="brand-selector.html" pinned="false" current="false" current-in-tab="true">
+            <file leaf-file-name="brand-selector.html" pinned="false" current="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/app/views/brand-selector.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="29" column="2" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.6041667">
+                  <state line="30" column="43" selection-start="1362" selection-end="1362" vertical-scroll-proportion="-18.75">
                     <folding />
                   </state>
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="checkout.html" pinned="false" current="false" current-in-tab="false">
+            <file leaf-file-name="checkout.html" pinned="false" current="true" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/app/views/checkout.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="96" column="62" selection-start="4615" selection-end="4615" vertical-scroll-proportion="0.0">
+                  <state line="112" column="32" selection-start="5560" selection-end="5560" vertical-scroll-proportion="2.3333333">
                     <folding />
                   </state>
                 </provider>
@@ -139,10 +139,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Checkout.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Checkout.js" pinned="false" current="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/Checkout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="16" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
+            <state line="92" column="36" selection-start="3024" selection-end="3024" vertical-scroll-proportion="0.7794118">
               <folding />
             </state>
           </provider>
@@ -202,10 +202,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="frocket-pane.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="frocket-pane.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/directives/frocket-pane.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="26" selection-start="759" selection-end="759" vertical-scroll-proportion="0.3970588">
+            <state line="8" column="54" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -231,7 +231,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/views/modify-text-pane.html" />
-        <option value="$PROJECT_DIR$/app/views/checkout.html" />
         <option value="$PROJECT_DIR$/app/styles/main.css" />
         <option value="$PROJECT_DIR$/app/scripts/directives/tool-pane.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/toolEnum.js" />
@@ -246,6 +245,7 @@
         <option value="$PROJECT_DIR$/app/scripts/directives/color-pane.js" />
         <option value="$PROJECT_DIR$/app/scripts/directives/tshirt-workshop.js" />
         <option value="$PROJECT_DIR$/app/scripts/directives/frocket-pane.js" />
+        <option value="$PROJECT_DIR$/app/views/checkout.html" />
       </list>
     </option>
   </component>
@@ -501,7 +501,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33957553" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33956835" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -615,20 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/checkout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="62" selection-start="4615" selection-end="4615" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/Checkout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="16" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/directives/new-pane.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="0" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.0">
@@ -671,13 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/brand-selector.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="2" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.6041667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/directives/image-pane.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="35" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0">
@@ -687,7 +666,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/directives/frocket-pane.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="26" selection-start="759" selection-end="759" vertical-scroll-proportion="0.3970588">
+        <state line="8" column="54" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/Checkout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="36" selection-start="3024" selection-end="3024" vertical-scroll-proportion="0.7794118">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/brand-selector.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="43" selection-start="1362" selection-end="1362" vertical-scroll-proportion="-18.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/checkout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="32" selection-start="5560" selection-end="5560" vertical-scroll-proportion="2.3333333">
           <folding />
         </state>
       </provider>

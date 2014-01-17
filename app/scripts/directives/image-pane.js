@@ -7,6 +7,7 @@ angular.module('tshirtDesignLabApp')
       restrict: 'E',
       link: function (scope, element, attrs) {
 
+        scope.uploadedImages = {};
         scope.file;
 
         var reader = new FileReader();
@@ -21,22 +22,22 @@ angular.module('tshirtDesignLabApp')
 
         // Spinning wheel
         scope.waiting = false;
-
         // Upload image
         scope.upload = function() {
+          $timeout(function() { scope.waiting = false; }, 500);
           if (scope.file) {
+            // Rev up the spinning wheel
             scope.waiting = true;
-            $timeout(function() {
-              scope.file = imgPreview.src = null;
-              scope.waiting = false;
-            }, 500);
-
             // Add image to canvas
             fabric.Image.fromURL(currentImage, function(img) {
               img.scale(.25);
+              img.name = scope.file;
+              scope.canvas.centerObject(img);
               scope.canvas.add(img);
+              scope.canvas.setActiveObject(img);
+              scope.uploadedImages[img.name] = currentImage;
+              scope.file = imgPreview.src = null;
             });
-            scope.file = null;
           }
         }
       }

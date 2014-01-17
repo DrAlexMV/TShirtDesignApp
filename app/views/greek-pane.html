@@ -2,20 +2,41 @@
     <p class="lead">Greek Letters</p>
     <hr>
     <form novalidate>
-        <div class="input-group input-group-sm">
-            <span class="input-group-addon">
-                <i class="fa fa-search"></i>
-            </span>
-            <input type="search" class="form-control" placeholder="eg: lambda" ng-model="greekSearch">
+        <div class="form-group">
+            <div class="input-group input-group-sm">
+                <span class="input-group-addon">
+                    <i class="fa fa-search"></i>
+                </span>
+                <input type="search" class="form-control" placeholder="eg: lambda" ng-model="greekSearch">
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="button"
+                            tooltip="Toggle case" tooltip-placement="right"
+                            ng-click="toLowerCaseGreek(transform)">
+                        <i class="fa fa-arrows-v"></i>
+                    </button>
+                </span>
+            </div>
+            <hr>
+            <ul class="greek-list row">
+                <li class="col-md-4 col-md-offset-1" ng-repeat="letter in greekAlphabet | filter:greekSearch">
+                    <div class="greek-square" ng-click="addToSentence(letter.character, currentSentence)">
+                        <span class="greek-letter">{{ letter.character }}</span>
+                    </div>
+                </li>
+            </ul>
         </div>
         <hr>
-        <ul class="greek-list row">
-            <li class="col-md-4 col-md-offset-1" ng-repeat="letter in greekAlphabet | filter:greekSearch">
-                <div class="greek-square" ng-click="addText(letter.character, 'Times New Roman')">
-                    <span class="greek-letter">{{ letter.character }}</span>
-                </div>
-            </li>
-        </ul>
+        <div class="form-group">
+            <div class="input-group">
+                <input class="form-control" type="" ng-model="currentSentence"/>
+                <span class="input-group-btn">
+                    <button class="btn btn-success" type="button"
+                            ng-click="addText(currentSentence, 'Times New Roman')">
+                        <i class="fa fa-plus"></i>
+                    </button>
+                </span>
+            </div>
+        </div>
     </form>
 </div>
 

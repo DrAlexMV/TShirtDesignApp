@@ -64,27 +64,19 @@
             </div>
         </div>
         <div class="form-group">
-            <div class="row">
-                <div class="col-md-3">
-                    <button class="btn btn-danger" ng-click="removeText(currentText)"
-                            tooltip="Delete text" style="min-width: 50px">
-                        <i class="fa fa-trash-o fa-2x"></i>
-                    </button>
-                </div>
-                <div class="col-md-3">
-                    <button class="btn btn-warning" ng-click="duplicateText(currentText)"
-                            tooltip="Clone text"  style="max-width: 50px">
-                        <i class="fa fa-clipboard fa-2x"></i>
-                    </button>
-                </div>
-                <div class="col-md-3">
-                    <button class="btn btn-primary" ng-click="toggle()"
-                            tooltip="Text color" style="background-color: {{ currentText.fill }}">
-                        <i ng-class="{ 'fa-toggle-down': colorToggle, 'fa-toggle-up': !colorToggle }"
-                           class="fa fa-2x"></i>
-                    </button>
-                </div>
-            </div>
+            <button class="btn btn-danger" ng-click="removeText(currentText)"
+                    tooltip="Delete text" style="min-width: 50px">
+                <i class="fa fa-trash-o fa-2x"></i>
+            </button>
+            <button class="btn btn-warning" ng-click="duplicateText(currentText)"
+                    tooltip="Clone text"  style="max-width: 50px">
+                <i class="fa fa-clipboard fa-2x"></i>
+            </button>
+            <button class="btn btn-primary" ng-click="toggle()"
+                    tooltip="Text color" style="background-color: {{ currentText.fill }}">
+                <i ng-class="{ 'fa-toggle-down': colorToggle, 'fa-toggle-up': !colorToggle }"
+                   class="fa fa-2x"></i>
+            </button>
         </div>
         <hr>
         <div collapse="colorToggle">

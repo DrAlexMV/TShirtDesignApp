@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('tshirtDesignLabApp')
-  .directive('modifyTextPane', function ($templateCache, $sce) {
+  .directive('modifyTextPane', function ($templateCache, $filter) {
     return {
       templateUrl: 'views/modify-text-pane.html' ,
       restrict: 'E',
@@ -24,7 +24,7 @@ angular.module('tshirtDesignLabApp')
           'currentText.height, ' +
           'currentText.width,    currentText.scaleX,' +
           'currentText.scaleY,   currentText.fontWeight, ' +
-          'currentText.fontStyle]', function() {
+          'currentText.fontStyle]', function(newVal) {
           if (scope.currentText.type == 'text') {
             scope.currentText.setCoords();
             scope.canvas.renderAll();

@@ -3,18 +3,28 @@
 angular.module('tshirtDesignLabApp')
   .controller('CheckoutCtrl', function ($scope, $rootScope, $http, $modalInstance) {
 
-    // Order JSON model
+    // Form access model
     $scope.form = {};
+
+    // Order JSON model for reference
     $scope.order = {
+      numXSmall: 0,
       numSmall: 0,
       numMedium: 0,
       numLarge: 0,
+      numXLarge: 0,
+      numXXLarge: 0,
+      shirtColor: '',
       backDesign: '',
       frontDesign: '',
       frocketDesign: '',
-      shirtBrand: 'Gildan',
+      uploadedImages: '',
+      brandName: '',
+      productName: '',
       comments: '',
-      userEmail: ''
+      name: '',
+      userEmail: '',
+      phoneNumber: ''
     };
     $scope.showOther = false;
     // Collect the designs from the canvases
@@ -51,12 +61,12 @@ angular.module('tshirtDesignLabApp')
 
     // Initial form values
     $scope.selectedForm = 0;
-    $scope.progress = {value: 25, type: 'danger'};
+    var numberOfStages = 3;
+    $scope.progress = {value: 33, type: 'danger'};
 
     // Rotate the image on the preview form
     $scope.rotate = true;
 
-    var numberOfStages = 4;
     $scope.changeForm = function(formChange) {
       var finalChange = $scope.selectedForm + formChange;
       $scope.selectedForm = (finalChange >= 0 && finalChange < numberOfStages) ?
@@ -64,15 +74,12 @@ angular.module('tshirtDesignLabApp')
       switch($scope.selectedForm) {
         default:
         case 0:
-          $scope.progress = {value: 25, type: 'danger'};
+          $scope.progress = {value: 33, type: 'danger'};
           break;
         case 1:
-          $scope.progress = {value: 50, type: 'warning'};
+          $scope.progress = {value: 66, type: 'warning'};
           break;
         case 2:
-          $scope.progress = {value: 75, type: 'primary'};
-          break;
-        case 3:
           $scope.progress = {value: 100, type: 'success'};
           break;
       }
@@ -80,6 +87,7 @@ angular.module('tshirtDesignLabApp')
 
     $scope.submitOrder = function(order) {
       if (!$scope.form.checkoutForm.$invalid) {
+        console.log(order);
         $http.post('url', order);
         order = {};
         $modalInstance.close('done');

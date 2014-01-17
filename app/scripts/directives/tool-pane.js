@@ -16,6 +16,12 @@ angular.module('tshirtDesignLabApp')
               active: true
             },
             {
+              name: 'colorPane',
+              tooltip: 'Change color',
+              icon: 'fa fa-th-large fa-2x',
+              active: false
+            },
+            {
               name: 'textPane',
               tooltip: 'Add text',
               icon: 'fa fa-text-height fa-2x',
@@ -25,12 +31,6 @@ angular.module('tshirtDesignLabApp')
               name: 'greekPane',
               tooltip: 'Greek letters',
               icon: 'icon-omega im-2x',
-              active: false
-            },
-            {
-              name: 'colorPane',
-              tooltip: 'Change color',
-              icon: 'fa fa-th-large fa-2x',
               active: false
             },
             {

@@ -6,7 +6,7 @@ angular.module('tshirtDesignLabApp')
       templateUrl: 'views/text-pane.html',
       restrict: 'E',
       link: function postLink(scope, element, attrs) {
-        scope.textToAdd = {};
+        scope.textToAdd = '';
 
         // Event listener for addition of new text to the canvas
         scope.addText = function(text, font) {
@@ -18,12 +18,13 @@ angular.module('tshirtDesignLabApp')
             });
             scope.canvas.centerObject(text);
             scope.canvas.add(text);
-            scope.textToAdd = {};
+            scope.canvas.setActiveObject(text);
+            scope.textToAdd = scope.currentSentence = '';
           }
         };
 
         scope.resetForm = function(textToAdd) {
-          scope.textToAdd = {};
+          scope.textToAdd = '';
         };
       }
     };

@@ -33,6 +33,17 @@ angular.module('tshirtDesignLabApp')
             { name: 'Psi', character: 'Ψ' },
             { name: 'Omega', character: 'Ω' }
           ];
+
+        // Add greek letter to current sentence
+        scope.currentSentence = '';
+        scope.addToSentence = function(letter, cs) { scope.currentSentence = cs.concat(letter); };
+        // Toggle alphabet case
+        scope.transform = 0;
+        var tArray = ['toLowerCase', 'toUpperCase'];
+        scope.toLowerCaseGreek = function(i) {
+          angular.forEach(scope.greekAlphabet, function(l) {l.character = l.character[tArray[i]](); });
+          scope.transform = (scope.transform + 1) % tArray.length;
+        };
       }
     };
   });

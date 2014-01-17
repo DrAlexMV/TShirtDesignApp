@@ -77,7 +77,8 @@
 
 .greek-list {
     padding: 0;
-    max-height: 290px;
+    max-height: 229px;
+    overflow: -moz-scrollbars-vertical;
     overflow-y: scroll;
     list-style: none;
     user-select: none;
@@ -87,7 +88,7 @@
     padding: 0;
     list-style: none;
     overflow-y: scroll;
-    max-height: 350px;
+    max-height: 300px;
 }
 
 .background-image {
@@ -96,8 +97,12 @@
     width: 500px;
 }
 
-.shirtCanvas {
+.canvas-container {
     top: 125px !important;
     left: 130px !important;
+}
+
+.canvas-container canvas {
+    border: 2px dashed #fff;
 }
 

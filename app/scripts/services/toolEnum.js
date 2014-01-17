@@ -5,9 +5,9 @@ angular.module('tshirtDesignLabApp')
     var tools =
     {
       newPane: 0,
-      textPane: 1,
-      greekPane: 2,
-      colorPane: 3,
+      colorPane: 1,
+      textPane: 2,
+      greekPane: 3,
       imagePane: 4,
       frocketPane: 5
     };

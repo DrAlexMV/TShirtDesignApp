@@ -26,14 +26,23 @@
                             <modify-image-pane ng-hide="selected != 'modifyImagePane'"></modify-image-pane>
                         </div>
                     </div>
-                    <div class="col-sm-4 col-md-8" style="height: 500px">
+                    <div class="col-sm-4 col-md-7" style="height: 500px" ng-show="currentProduct">
                         <div ng-hide="shirtDirection != 'front'">
                             <img class="background-image" id="front-image-background"/>
-                            <canvas class="shirtCanvas" id="front-shirt-display"></canvas>
+                            <canvas id="front-shirt-display"></canvas>
                         </div>
                         <div ng-hide="shirtDirection != 'back'">
                             <img class="background-image" id="back-image-background"/>
-                            <canvas class="shirtCanvas" id="back-shirt-display"></canvas>
+                            <canvas id="back-shirt-display"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="height: 500px" ng-hide="currentProduct">
+                        <div class="well">
+                            <p class="lead">
+                                Select a new product by clicking
+                                the 'Products' button on the left.
+                            </p>
+                            <i class="fa fa-arrow-left fa-2x"></i>
                         </div>
                     </div>
                 </div>

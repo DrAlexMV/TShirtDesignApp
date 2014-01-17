@@ -59,7 +59,7 @@ angular.module('tshirtDesignLabApp')
           } else {
             scope.$emit('changeSelectedTool', scope.selectedPreviously);
           }
-          scope.$apply();
+          if (!scope.$$phase) scope.$apply();
         };
 
         // Event listener when selecting an object (text or image)
@@ -92,16 +92,21 @@ angular.module('tshirtDesignLabApp')
         };
 
         $rootScope.collectData = function() {
-          // Change selected tool to new pane
-          scope.$emit('changeSelectedTool', 'newPane');
-          // Deactivate all current selections
-          scope.frontCanvas.deactivateAll().renderAll();
-          scope.backCanvas.deactivateAll().renderAll();
-          // Serialize front canvas
-          return {
-            frontDesign: scope.frontCanvas.toDataURL(),
-            backDesign: scope.backCanvas.toDataURL(),
-            frocketDesign: scope.frocketDesign
+          if (scope.currentProduct) {
+            // Change selected tool to new pane
+            scope.$emit('changeSelectedTool', 'newPane');
+            // Deactivate all current selections
+            scope.frontCanvas.deactivateAll().renderAll();
+            scope.backCanvas.deactivateAll().renderAll();
+            return {
+              frontDesign: scope.frontCanvas.toDataURL(),
+              backDesign: scope.backCanvas.toDataURL(),
+              frocketDesign: scope.frocketDesign,
+              uploadedImages: scope.uploadedImages,
+              brandName: scope.currentProduct.brandName,
+              productName: scope.currentProduct.name,
+              shirtColor: scope.selectedColor
+            }
           }
         };
       }

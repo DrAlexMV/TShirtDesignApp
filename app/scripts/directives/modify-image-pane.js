@@ -7,9 +7,14 @@ angular.module('tshirtDesignLabApp')
       restrict: 'E',
       link: function postLink(scope, element, attrs) {
         scope.currentImage = {};
-        scope.$watchCollection('[currentImage.scaleX, currentImage.scaleY, currentImage.angle]', function()  {
+        scope.$watchCollection('[currentImage.scaleX, currentImage.scaleY, ' +
+          'currentImage.angle]', function(newVal)  {
           scope.canvas.renderAll();
-        })
+        });
+        scope.removeImage = function(img) {
+          delete scope.uploadedImages[img.name];
+          scope.removeText(img);
+        };
       }
     };
   });

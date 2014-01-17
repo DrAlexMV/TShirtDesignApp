@@ -13,15 +13,21 @@
     <form name="form.checkoutForm">
         <div ng-show="selectedForm == 0">
             <div class="row">
-                <div class="col-md-7">
+                <div class="col-md-6">
                     <div class="well">
                         <p class="lead">Tell us the number of shirts of each size that you desire.</p>
                         <p class="lead">
-                            You have selected: {{ order.numSmall + order.numMedium + order.numLarge }} shirts
+                            You have selected: {{ order.numXSmall + order.numSmall +
+                            order.numMedium + order.numLarge + order.numXLarge + order.numXXLarge }} shirts
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="numXSmall">X-Small</label>
+                        <input class="form-control" id="numXSmall" type="number" min="0"
+                               ng-model="order.numXSmall"/>
+                    </div>
                     <div class="form-group">
                         <label for="numSmall">Small</label>
                         <input class="form-control" id="numSmall" type="number" min="0"
@@ -37,47 +43,20 @@
                         <input class="form-control" id="numLarge" type="number" min="0"
                                ng-model="order.numLarge"/>
                     </div>
+                    <div class="form-group">
+                        <label for="numXLarge">X-Large</label>
+                        <input class="form-control" id="numXLarge" type="number" min="0"
+                               ng-model="order.numXLarge"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="numXXLarge">XX-Large</label>
+                        <input class="form-control" id="numXXLarge" type="number" min="0"
+                               ng-model="order.numXXLarge"/>
+                    </div>
                 </div>
             </div>
         </div>
         <div ng-show="selectedForm == 1">
-            <div class="row">
-                <div class="col-md-7">
-                    <div class="well">
-                        <p class="lead">We offer a selection of different shirt brands for your design.</p>
-                        <p class="lead">If you don't like any of the options, don't worry! Just tell us which one you want.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <p class="lead">Brands</p>
-                    <hr>
-                    <div class="radio">
-                        <label>
-                            <input name="brandOptions" type="radio" ng-model="order.shirtBrand"
-                                   value="Gildan" ng-checked="true"/>
-                            Gildan
-                        </label>
-                    </div>
-                    <div class="radio">
-                        <label>
-                            <input name="brandOptions" type="radio" ng-model="order.shirtBrand"
-                                   value="Comfort Colors"/>
-                            Comfort Colors
-                        </label>
-                    </div>
-                    <div class="form-group">
-                        <div class="radio">
-                            <label>
-                                <input name="brandOptions" type="radio" value="true" ng-model="showOther"/>
-                                Other
-                            </label>
-                        </div>
-                        <input class="form-control" ng-model="order.shirtBrand" ng-show="showOther"/>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div ng-show="selectedForm == 2">
             <div class="row">
                 <div class="col-md-6">
                     <a class="thumbnail" ng-hide="!rotate">
@@ -102,9 +81,9 @@
                 </div>
             </div>
         </div>
-        <div ng-show="selectedForm == 3">
+        <div ng-show="selectedForm == 2">
             <div class="row">
-                <div class="col-md-11">
+                <div class="col-md-12">
                     <div class="well">
                         <p class="lead">
                             Our team will contact you shortly in regards to your order. Please fill
@@ -113,16 +92,18 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-11">
+                <div class="col-md-12">
                     <label>Name:<input class="form-control"
                                        type="text" ng-model="order.name" required/>
                     </label>
                     <label>Email:<input class="form-control" type="email"
                                         ng-model="order.userEmail" required/></label>
+                    <label>Phone (Optional):<input class="form-control" type=""
+                                        ng-model="order.phoneNumber" /></label>
                     <div class="form-group">
                         <label>
                             Comments:
-                            <textarea class="form-control" cols="52" ng-model="order.comments"></textarea>
+                            <textarea class="form-control" cols="82" ng-model="order.comments"></textarea>
                         </label>
                     </div>
                     <button class="btn btn-success pull-left" ng-click="submitOrder(order)"

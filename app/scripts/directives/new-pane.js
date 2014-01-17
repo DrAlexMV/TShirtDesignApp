@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('tshirtDesignLabApp')
-  .directive('newPane', function () {
+  .directive('newPane', function ($modal, toolEnum) {
     return {
       templateUrl: 'views/new-pane.html',
       restrict: 'E',
@@ -11,51 +11,34 @@ angular.module('tshirtDesignLabApp')
         // provide the background for the canvases
         var frontBackground = document.getElementById('front-image-background');
         var backBackground = document.getElementById('back-image-background');
+        var basePP = document.getElementById('base-product-preview');
 
-        // A list of the shirts and their backgrounds
-        scope.productList =
-          [
-            {
-              tooltip: 'Short sleeve',
-              whiteFrontSrc: '../images/teeW.png',
-              whiteBackSrc: '../images/teeWBack.png',
-              blackFrontSrc: '../images/teeB.png',
-              blackBackSrc: '../images/teeBBack.png',
-              redFrontSrc: '../images/teeR.png',
-              redBackSrc: '../images/teeRBack.png'
-            },
-            {
-              tooltip: 'Long sleeve',
-              whiteFrontSrc: '../images/longW.png',
-              whiteBackSrc: '../images/longWBack.png',
-              blackFrontSrc: '../images/longB.png',
-              blackBackSrc: '../images/longBBack.png',
-              redFrontSrc: '../images/longR.png',
-              redBackSrc: '../images/longRBack.png'
-            },
-            {
-              tooltip: 'Tank top',
-              whiteFrontSrc: '../images/tankW.png',
-              whiteBackSrc: '../images/tankWBack.png',
-              blackFrontSrc: '../images/tankB.png',
-              blackBackSrc: '../images/tankBBack.png',
-              redFrontSrc: '../images/tankR.png',
-              redBackSrc: '../images/tankRBack.png'
-            }
-          ];
-
-        // The currently displayed product
-        scope.currentProduct = scope.productList[0];
-
+        // Change current product
         scope.changeProduct = function(product, color) {
-          // Change current product
-          scope.currentProduct = product;
-          frontBackground.src = product[color + 'FrontSrc'];
-          backBackground.src = product[color + 'BackSrc'];
+          if (product) {
+            scope.currentProduct = product;
+            frontBackground.src = basePP.src = product.availableColors[color].frontSrc;
+            backBackground.src = product.availableColors[color].backSrc;
+          }
         };
 
-        // Init the background for the first shirt
-        scope.changeProduct(scope.currentProduct, "white");
+        // Call upon the brand selector to adjust brand/color choices
+        scope.changeBrand = function() {
+          var modal =  $modal.open({
+            templateUrl: 'views/brand-selector.html',
+            controller: 'BrandSelectorCtrl'
+          });
+          modal.result.then(function(selectedProduct) {
+            scope.currentProduct = selectedProduct;
+            // List of supported colors and their codes
+            scope.colors = [];
+            angular.forEach(scope.currentProduct.availableColors, function(c) {
+              scope.colors.push({name: c.name, code: c.code});
+            });
+            scope.changeProduct(selectedProduct, 'white');
+            scope.$emit('changeSelectedTool', 'colorPane');
+          });
+        };
       }
     };
   });

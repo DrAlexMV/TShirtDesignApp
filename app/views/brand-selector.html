@@ -1,0 +1,38 @@
+<div class="modal-header">
+    <h4 class="modal-title">Change brand</h4>
+</div>
+<div class="modal-body">
+    <form>
+        <div class="form-group">
+            <label for="brands">Brands:</label>
+            <select id="brands" class="form-control" ng-model="currentBrand"
+                    ng-options="brand.name for brand in brandList" ng-required>
+                <option value="" disabled>Choose brand</option>
+            </select>
+        </div>
+        <div class="form-group" ng-show="currentBrand.name == 'Other'">
+            <label for="other">Other:</label>
+            <input class="form-control" id="other" type="text"
+                   ng-model="otherSelection" ng-change="otherChanged(otherSelection, currentBrand)">
+        </div>
+        <hr>
+        <div class="form-group">
+            <h4>Available Products:</h4>
+            <ul class="product-list row">
+                <li class="col-md-4 col-md-offset-0" ng-repeat="product in currentBrand.products"
+                    tooltip="{{ product.name }}" tooltip-placement="top">
+                    <a class="thumbnail" href="" ng-click="selectProduct(product)">
+                        <img src="{{ product.availableColors.white.frontSrc }}" alt=""/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <h4>Selected Product:</h4>{{ selectedProduct.brandName + ' ' + selectedProduct.name }}
+    </form>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-success" ng-click="closeForm(selectedProduct)">
+        <i class="fa fa-check"></i>
+    </button>
+</div>

@@ -391,13 +391,6 @@ angular.module('tshirtDesignLabApp')
 
             {
 
-
-
-
-
-
-
-	    
               name: 'Long sleeve',
 
               brandName: 'Gildan',
@@ -493,124 +486,162 @@ angular.module('tshirtDesignLabApp')
                          backSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve/back-white.jpg'}
               }
             },
+
+
+
+
             {
               name: 'Long sleeve Pocket',
               brandName: 'Gildan',
               availableColors:
               {
-
-                white: { name: 'White',
-                         code: 'white',
-
-                         frontSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve-Pocket/front-white.jpg',
-                         backSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve-Pocket/back-white.jpg'},
                 black: { name: 'Black',
-                         code: 'black',
+                         code: '#fff',
 
                          frontSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve-Pocket/front-black.jpg',
                          backSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve-Pocket/back-black.jpg'},
 
                 navy: { name: 'Navy',
-                        code: '#000080',
+                        code: '#101336',
 
                         frontSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve-Pocket/front-navy.jpg',
                         backSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve-Pocket/back-navy.jpg'},
 
                 /* new colors */
                 red: { name: 'Red',
-                       code: '#cf3442',
+                       code: 'red',
 
                        frontSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve-Pocket/front-red.jpg',
                        backSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve-Pocket/back-red.jpg'},
 
                 safetygreen: { name: 'Safety Green',
-                               code: '#f3f315',
+                               code: '#96cb5f',
 
                                frontSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve-Pocket/front-safety-green.jpg',
                                backSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve-Pocket/back-safety-green.jpg'},
 
                 safetyorange: { name: 'Safety Orange',
-                                code: '#ff9933',
+                                code: '#fd6b46',
 
                                 frontSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve-Pocket/front-safety-orange.jpg',
-                                backSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve-Pocket/back-safety-orange.jpg'}
+                                backSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve-Pocket/back-safety-orange.jpg'},
+
+                white: { name: 'White',
+                         code: '#fff',
+
+                         frontSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve/front-white.jpg',
+                         backSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve/back-white.jpg'}
               }
             },
+
             {
-              name: 'Short Sleeve Pocket',
+              name: 'Short sleeve Pocket',
               brandName: 'Gildan',
               availableColors:
               {
-                ash: { name: 'Ash',
-                       code: '#d3d3d3',
+                bluejean: { name: 'Blue Jean',
+                            code: '#646f83',
 
-                       frontSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve-Pocket/front-ash.jpg',
-                       backSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve-Pocket/back-ash.jpg'},
+                            frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-bluejean.jpg',
+                            backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-bluejean.jpg'},
 
-                black: { name: 'Black',
-                         code: 'black',
+                brown: { name: 'Brown',
+                         code: '#6e5e4e',
 
-                         frontSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve-Pocket/front-black.jpg',
-                         backSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve-Pocket/back-black.jpg'},
+                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-brown.jpg',
+                         backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-brown.jpg'},
 
-                forestgreen: { name: 'Forest Green',
-                               code: '#27432a',
+                chocolate: { name: 'Chocolate',
+                             code: '#695c56',
 
-                               frontSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve-Pocket/front-forest-green.jpg',
-                               backSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve-Pocket/back-forest-green.jpg'},
+                             frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-chocolate.jpg',
+                             backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-chocolate.jpg'},
+                crimson: { name: 'Crimson',
+                           code: '#944a57',
 
-                /* more */
-                navy: { name: 'Navy',
-                        code: '#101336',
+                           frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-crimson.jpg',
+                           backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-crimson.jpg'},
 
-                        frontSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve-Pocket/front-navy.jpg',
-                        backSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve-Pocket/back-navy.jpg'},
+                denim: { name: 'Denim',
+                         code: '#515765',
 
-                orange: { name: 'Orange',
-                          code: '#fd6b46',
+                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-denim.jpg',
+                         backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-denim.jpg'},
 
-                          frontSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve-Pocket/front-orange.jpg',
-                          backSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve-Pocket/back-orange.jpg'},
+                grey: { name: 'Grey',
+                        code: '#7d7d7b',
 
-                red: { name: 'Red',
-                       code: '#c0243a',
+                        frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-grey.jpg',
+                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-grey.jpg'},
+                /* more colors */
+                hemp: { name: 'Hemp',
+                        code: '#5c614d',
 
-                       frontSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve-Pocket/front-red.jpg',
-                       backSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve-Pocket/back-red.jpg'},
+                        frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-hemp.jpg',
+                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-hemp.jpg'},
 
-                /* more */
-                royalblue: { name: 'Royal Blue',
-                             code: '#3466a5',
+                khaki: { name: 'Khaki',
+                         code: '#a19b8b',
 
-                             frontSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve-Pocket/front-royal-blue.jpg',
-                             backSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve-Pocket/back-royal-blue.jpg'},
+                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-denim.jpg',
+                         backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-denim.jpg'},
 
-                sportgrey: { name: 'Sport Grey',
-                             code: '#a2a3a5',
+                lightgreen: { name: 'Light Green',
+                              code: '#7b9087',
 
-                             frontSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve-Pocket/front-sport-grey.jpg',
-                             backSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve-Pocket/back-sport-grey.jpg'},
+                              frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-lightgreen.jpg',
+                              backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-lightgreen.jpg'},
+                /* more colors */
+                mustard: { name: 'Mustard',
+                           code: '#d1b470',
 
+                           frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-hemp.jpg',
+                           backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-hemp.jpg'},
+
+                pepper: { name: 'Pepper',
+                          code: '#5c5c5c',
+
+                          frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-pepper.jpg',
+                          backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-pepper.jpg'},
+
+                sandstone: { name: 'Sandstone',
+                             code: '#c0c2ad',
+
+                             frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-sandstone.jpg',
+                             backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-sandstone.jpg'},
                 white: { name: 'White',
-                         code: 'white',
+                         code: '#fff',
 
-                         frontSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve-Pocket/front-white.jpg',
-                         backSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve-Pocket/back-white.jpg'}
+                         frontSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve/front-white.jpg',
+                         backSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve/back-white.jpg'},
+                /* more colors */
+                yam: { name: 'Yam',
+                       code: '#b87f52',
+
+                       frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-yam.jpg',
+                       backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-yam.jpg'}
+
               }
             },
+
+
+
+
+
+
             {
               name: 'Tank top',
               brandName: 'Gildan',
               availableColors:
               {
                 white: { name: 'White',
-                         code: 'white',
+                         code: '#fff',
 
                          frontSrc: 'http://www.texasca.com/images/Gildan-Tank-Top/front-white.jpg',
                          backSrc: 'http://www.texasca.com/images/Gildan-Tank-Top/back-white.jpg'},
 
                 black: { name: 'Black',
-                         code: 'black',
+                         code: '#000',
 
                          frontSrc: 'http://www.texasca.com/images/Gildan-Tank-Top/front-black.jpg',
                          backSrc: 'http://www.texasca.com/images/Gildan-Tank-Top/back-black.jpg'},

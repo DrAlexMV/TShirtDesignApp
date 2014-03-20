@@ -92,5 +92,6 @@ angular.module('tshirtDesignLabApp')
         order = {};
         $modalInstance.close('done');
       }
-    }
+    };
   });
+

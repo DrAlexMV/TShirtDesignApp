@@ -9,7 +9,7 @@ angular.module('tshirtDesignLabApp')
         scope.currentImage = {};
         scope.$watchCollection('[currentImage.scaleX, currentImage.scaleY, ' +
           'currentImage.angle]', function(newVal)  {
-          scope.canvas.renderAll();
+          scope.canvas && scope.canvas.renderAll();
         });
         scope.removeImage = function(img) {
           delete scope.uploadedImages[img.name];

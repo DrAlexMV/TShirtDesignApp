@@ -17,6 +17,14 @@ angular.module('tshirtDesignLabApp')
         scope.changeProduct = function(product, color) {
           if (product) {
             scope.currentProduct = product;
+	    
+	    while (color.search(' ') >= 0) {
+		var colorArr = color.split('');
+		colorArr.splice(colorArr.indexOf(' '), 1);
+		color = colorArr.join('');
+	    }
+	    console.log("color: ", color);
+	    console.log("changing product: ", product);
             frontBackground.src = basePP.src = product.availableColors[color].frontSrc;
             backBackground.src = product.availableColors[color].backSrc;
           }

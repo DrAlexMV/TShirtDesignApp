@@ -671,7 +671,7 @@ angular.module('tshirtDesignLabApp')
                         code: '#d3d3d3',
 
                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-grey.jpg',
-                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-grey.jpg'}
+                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-grey.jpg'},
 	
                 citrus: { name: 'Citrus',
                          code: '#eda445',
@@ -683,7 +683,7 @@ angular.module('tshirtDesignLabApp')
                         code: '#93333f',
 
                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-crimson.jpg',
-                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-crimson.jpg'}
+                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-crimson.jpg'},
 						
                 floblue: { name: 'Flo Blue',
                          code: '#5a73b6',
@@ -695,7 +695,7 @@ angular.module('tshirtDesignLabApp')
                         code: '#b2a885',
 
                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-khaki.jpg',
-                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-khaki.jpg'}
+                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-khaki.jpg'},
 						
                 mustard: { name: 'Mustard',
                          code: '#ae873c',
@@ -707,7 +707,7 @@ angular.module('tshirtDesignLabApp')
                         code: '#56a46a',
 
                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-neon-green.jpg',
-                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-neon-green.jpg'}
+                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-neon-green.jpg'},
 						
                 neonpink: { name: 'Neon Pink',
                          code: '#f572b4',
@@ -719,13 +719,13 @@ angular.module('tshirtDesignLabApp')
                         code: '#f6757a',
 
                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-neon-red-orange.jpg',
-                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-neon-red-orange.jpg'}
+                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-neon-red-orange.jpg'},
 		
                 seafoam: { name: 'Seafoam',
                          code: '#49908a',
 
                          frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-seafoam.jpg',
-                         backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-seafoam.jpg'},
+                         backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-seafoam.jpg'}
               }
 			{
               name: 'Short sleeve Pocket',
@@ -814,7 +814,7 @@ angular.module('tshirtDesignLabApp')
                             code: '#fff',
 
                             frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve-Pocket/front-white.jpg',
-                            backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve-Pocket/back-white.jpg'},
+                            backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve-Pocket/back-white.jpg'}
               }
             },
             {
@@ -826,7 +826,7 @@ angular.module('tshirtDesignLabApp')
                         code: '#49908a',
 
                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/front-blue-jean.jpg',
-                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/back-blue-jean.jpg'}
+                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/back-blue-jean.jpg'},
 		
                 seafoam: { name: 'Brown',
                          code: '#5c4734',
@@ -838,7 +838,7 @@ angular.module('tshirtDesignLabApp')
                         code: '#973743',
 
                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/front-crimson.jpg',
-                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/back-crimson.jpg'}
+                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/back-crimson.jpg'},
 		
                 grey: { name: 'Grey',
                          code: '#656565',
@@ -850,7 +850,7 @@ angular.module('tshirtDesignLabApp')
                         code: '#545945',
 
                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/front-hemp.jpg',
-                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/back-hemp.jpg'}
+                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/back-hemp.jpg'},
 		
                 mustard: { name: 'Mustard',
                          code: '#d7b063',
@@ -862,13 +862,13 @@ angular.module('tshirtDesignLabApp')
                         code: '#383838',
 
                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/front-pepper.jpg',
-                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/back-pepper.jpg'}
+                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/back-pepper.jpg'},
 		
                 yam: { name: 'Yam',
                          code: '#ac6048',
 
                          frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/front-yam.jpg',
-                         backSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/back-yam.jpg'},
+                         backSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/back-yam.jpg'}
               }
             },
             {
@@ -880,7 +880,7 @@ angular.module('tshirtDesignLabApp')
                         code: 'black',
 
                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Tanktop/front-black.jpg',
-                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Tanktop/back-black.jpg'}
+                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Tanktop/back-black.jpg'},
 		
                 bluejean: { name: 'Blue Jean',
                          code: '#556072',
@@ -892,7 +892,7 @@ angular.module('tshirtDesignLabApp')
                         code: '#f1b55d',
 
                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Tanktop/front-black.jpg',
-                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Tanktop/back-black.jpg'}
+                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Tanktop/back-black.jpg'},
 		
                 floblue: { name: 'Flo Blue',
                          code: '#5e6fa7',
@@ -910,7 +910,7 @@ angular.module('tshirtDesignLabApp')
                         code: '#9cc26d',
 
                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Tanktop/front-lime.jpg',
-                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Tanktop/back-lime.jpg'}
+                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Tanktop/back-lime.jpg'},
 		
                 neonpink: { name: 'Neon Pink',
                          code: '#f56aab',
@@ -928,7 +928,7 @@ angular.module('tshirtDesignLabApp')
                         code: '#fafb45',
 
                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Tanktop/front-neon-yellow.jpg',
-                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Tanktop/back-neon-yellow.jpg'}
+                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Tanktop/back-neon-yellow.jpg'},
 		
                 sapphire: { name: 'Sapphire',
                          code: '#3aa5b7',
@@ -985,6 +985,16 @@ angular.module('tshirtDesignLabApp')
                          backSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve/back-black.jpg'},
                 red: { name: 'Red', code: 'red',
                        frontSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve/front-red.jpg',
+                       backSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve/back-red.jpg'},
+			/*some more */
+			    white: { name: 'White', code: 'white',
+                         frontSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve/front-white.jpg',
+                         backSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve/back-white.jpg'},
+                black: { name: 'Black', code: 'black',
+                         frontSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve/front-black.jpg',
+                         backSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve/back-black.jpg'},
+                red: { name: 'Red', code: 'red',
+                       frontSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve/front-red.jpg',
                        backSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve/back-red.jpg'}
               }
             },
@@ -1006,7 +1016,22 @@ angular.module('tshirtDesignLabApp')
                          backSrc: 'http://www.texasca.com/images/Gildan-Tank-Top/back-black.jpg'},
                 red: { name: 'Red', code: 'red',
                        frontSrc: 'http://www.texasca.com/images/Gildan-Tank-Top/front-red.jpg',
-                       backSrc: 'http://www.texasca.com/images/Gildan-Tank-Top/back-red.jpg'}
+                       backSrc: 'http://www.texasca.com/images/Gildan-Tank-Top/back-red.jpg'},
+					   
+                orange: { name: 'Orange',
+                         code: 'orange',
+
+                         frontSrc: 'http://www.texasca.com/images/Gildan-Tank-Top/front-orange.jpg',
+                         backSrc: 'http://www.texasca.com/images/Gildan-Tank-Top/back-orange.jpg'},
+
+                blue: { name: 'Blue',
+                         code: 'blue',
+
+                         frontSrc: 'http://www.texasca.com/images/Gildan-Tank-Top/front-carolina-blue.jpg',
+                         backSrc: 'http://www.texasca.com/images/Gildan-Tank-Top/back-carolina-blue.jpg'},
+                green: { name: 'Green', code: 'green',
+                       frontSrc: 'http://www.texasca.com/images/Gildan-Tank-Top/front-lime.jpg',
+                       backSrc: 'http://www.texasca.com/images/Gildan-Tank-Top/back-lime.jpg'}
               }
             }
           ]

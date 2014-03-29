@@ -9,7 +9,7 @@ angular.module('tshirtDesignLabApp')
 
         // Color picker colors
         scope.colorToggle = true;
-        scope.colorSelection = ['black', 'white', 'green', 'red', 'blue', 'pink'];
+        scope.colorSelection = ['black', 'white', 'green', 'red', 'blue', 'pink', 'blue', 'orange', 'yellow', 'purple', 'brown', 'CornFlowerBlue', 'DarkBlue', 'Crimson', 'Lime', 'Ivory', 'Gold'];
         scope.toggle = function() { scope.colorToggle = !scope.colorToggle };
 
         scope.currentText = {};

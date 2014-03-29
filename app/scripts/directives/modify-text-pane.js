@@ -13,7 +13,7 @@ angular.module('tshirtDesignLabApp')
         scope.toggle = function() { scope.colorToggle = !scope.colorToggle };
 
         scope.currentText = {};
-        scope.fonts = ['Helvetica', 'Times New Roman', 'Bauhaus93'];
+        scope.fonts = ['Helvetica', 'Times New Roman', 'Bauhaus93','Georgia', 'Arial', 'Tahoma', 'Verdana', 'Palatino', 'Geneva'];
 
         scope.$on('modifyText', function(event, args) {
           scope.currentText = args;

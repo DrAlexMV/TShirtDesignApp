@@ -39,12 +39,6 @@ angular.module('tshirtDesignLabApp')
               icon: 'fa fa-picture-o fa-2x',
               active: false
             },
-            {
-              name: 'frocketPane',
-              tooltip: 'Upload frocket',
-              icon: 'fa fa-shield fa-2x',
-              active: false
-            }
           ];
 
         scope.$on('changeSelectedTool', function(event, args) {

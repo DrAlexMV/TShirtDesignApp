@@ -730,6 +730,60 @@ angular.module('tshirtDesignLabApp')
           products:
           [
             {
+              name: 'Long Sleeve',
+              brandName: 'Comfort Colors',
+              availableColors:
+              {
+                bluejean: { name: 'Blue Jean',
+                        code: '#',
+
+                        frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/front-blue-jean.jpg',
+                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/back-blue-jean.jpg'}
+		
+                seafoam: { name: 'Brown',
+                         code: '#',
+
+                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/front-seafoam.jpg',
+                         backSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/back-seafoam.jpg'},
+						 
+                crimson: { name: 'Crimson',
+                        code: '#',
+
+                        frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/front-crimson.jpg',
+                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/back-crimson.jpg'}
+		
+                grey: { name: 'Grey',
+                         code: '#',
+
+                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/front-grey.jpg',
+                         backSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/back-grey.jpg'},
+						 
+                hemp: { name: 'Hemp',
+                        code: '#',
+
+                        frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/front-hemp.jpg',
+                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/back-hemp.jpg'}
+		
+                mustard: { name: 'Mustard',
+                         code: '#',
+
+                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/front-mustard.jpg',
+                         backSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/back-mustard.jpg'},
+						 
+                pepper: { name: 'Pepper',
+                        code: '#',
+
+                        frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/front-pepper.jpg',
+                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/back-pepper.jpg'}
+		
+                yam: { name: 'Yam',
+                         code: '#',
+
+                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/front-yam.jpg',
+                         backSrc: 'http://www.texasca.com/images/Comfort-Colors-Long-Sleeve/back-yam.jpg'},
+              }
+            },
+{
               name: 'Short sleeve',
               brandName: 'Comfort Colors',
               availableColors:
@@ -737,8 +791,8 @@ angular.module('tshirtDesignLabApp')
                 white: { name: 'White',
                          code: 'white',
 
-                         frontSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve/front-white.jpg',
-                         backSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve/back-white.jpg'},
+                         frontSrc: 'http://www.texasca.com/images/Comfort-Color-Short-Sleeve/front-white.jpg',
+                         backSrc: 'http://www.texasca.com/images/Comfort-Color-Short-Sleeve/back-white.jpg'},
                 bluejean: { name: 'Blue Jean',
                             code: '#1560bd',
 
@@ -768,6 +822,60 @@ angular.module('tshirtDesignLabApp')
 
                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-grey.jpg',
                         backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-grey.jpg'}
+	
+                citrus: { name: 'Citrus',
+                         code: '#eda445',
+
+                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-citrus.jpg',
+                         backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-citrus.jpg'},
+
+                crimson: { name: 'Crimson',
+                        code: '#93333f',
+
+                        frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-crimson.jpg',
+                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-crimson.jpg'}
+						
+                floblue: { name: 'Flo Blue',
+                         code: '#5a73b6',
+
+                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-flo-blue.jpg',
+                         backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-flo-blue.jpg'},
+
+                khaki: { name: 'Khaki',
+                        code: '#b2a885',
+
+                        frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-khaki.jpg',
+                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-khaki.jpg'}
+						
+                mustard: { name: 'Mustard',
+                         code: '#ae873c',
+
+                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-mustard.jpg',
+                         backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-mustard.jpg'},
+
+                neongreen: { name: 'Neon Green',
+                        code: '#56a46a',
+
+                        frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-neon-green.jpg',
+                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-neon-green.jpg'}
+						
+                neonpink: { name: 'Neon Pink',
+                         code: '#f572b4',
+
+                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-neon-pink.jpg',
+                         backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-neon-pink.jpg'},
+
+                neonredorange: { name: 'Neon Red Orange',
+                        code: '#f6757a',
+
+                        frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-neon-red-orange.jpg',
+                        backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-neon-red-orange.jpg'}
+		
+                seafoam: { name: 'Seafoam',
+                         code: '#49908a',
+
+                         frontSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/front-seafoam.jpg',
+                         backSrc: 'http://www.texasca.com/images/Comfort-Colors-Short-Sleeve/back-seafoam.jpg'},
               }
             },
           ]

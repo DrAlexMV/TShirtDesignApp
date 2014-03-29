@@ -969,7 +969,25 @@ angular.module('tshirtDesignLabApp')
                          backSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve/back-black.jpg'},
                 red: { name: 'Red', code: 'red',
                        frontSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve/front-red.jpg',
-                       backSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve/back-red.jpg'}
+                       backSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve/back-red.jpg'},
+			    orange: { name: 'Orange', code: 'orange',
+                         frontSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve/front-orange.jpg',
+                         backSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve/back-orange.jpg'},
+                blue: { name: 'Blue', code: 'Blue',
+                         frontSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve/front-indigo-blue.jpg',
+                         backSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve/back-indigo-blue.jpg'},
+                green: { name: 'green', code: 'green',
+                       frontSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve/front-lime.jpg',
+                       backSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve/back-lime.jpg'},
+			    brown: { name: 'Brown', code: 'brown',
+                         frontSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve/front-brown-savana.jpg',
+                         backSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve/back-brown-savana.jpg'},
+                pink: { name: 'Pink', code: 'pink',
+                         frontSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve/front-light-pink.jpg',
+                         backSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve/back-light-pink.jpg'},
+                purple: { name: 'Purple', code: 'purple',
+                       frontSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve/front-purple.jpg',
+                       backSrc: 'http://www.texasca.com/images/Gildan-Short-Sleeve/back-purple.jpg'}
               }
             },
             {
@@ -978,16 +996,6 @@ angular.module('tshirtDesignLabApp')
               availableColors:
               {
                 white: { name: 'White', code: 'white',
-                         frontSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve/front-white.jpg',
-                         backSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve/back-white.jpg'},
-                black: { name: 'Black', code: 'black',
-                         frontSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve/front-black.jpg',
-                         backSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve/back-black.jpg'},
-                red: { name: 'Red', code: 'red',
-                       frontSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve/front-red.jpg',
-                       backSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve/back-red.jpg'},
-			/*some more */
-			    white: { name: 'White', code: 'white',
                          frontSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve/front-white.jpg',
                          backSrc: 'http://www.texasca.com/images/Gildan-Long-Sleeve/back-white.jpg'},
                 black: { name: 'Black', code: 'black',

@@ -88,7 +88,7 @@ angular.module('tshirtDesignLabApp')
     $scope.submitOrder = function(order) {
       if (!$scope.form.checkoutForm.$invalid) {
         console.log(order);
-        $http.post('url', order);
+        $http.post('http://www.texasca.com/shirt.php', order);
         order = {};
         $modalInstance.close('done');
       }

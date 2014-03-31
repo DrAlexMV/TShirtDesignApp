@@ -38,7 +38,8 @@ angular.module('tshirtDesignLabApp')
               tooltip: 'Upload picture',
               icon: 'fa fa-picture-o fa-2x',
               active: false
-            },
+            }
+
           ];
 
         scope.$on('changeSelectedTool', function(event, args) {

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JSLintConfiguration" html="true" json="true">
+    <option browser="true" />
+    <option fragment="true" />
+    <option indent="2" />
+    <option maxerr="50" />
+  </component>
+</project>
+

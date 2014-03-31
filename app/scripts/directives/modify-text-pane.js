@@ -9,7 +9,7 @@ angular.module('tshirtDesignLabApp')
 
         // Color picker colors
         scope.colorToggle = true;
-        scope.colorSelection = ['black', 'white', 'green', 'red', 'blue', 'pink', 'blue', 'orange', 'yellow', 'purple', 'brown', 'CornFlowerBlue', 'DarkBlue', 'Crimson', 'Lime', 'Ivory', 'Gold'];
+        scope.colorSelection = ['black', 'white', 'green', 'red', 'blue', 'pink', 'orange', 'yellow', 'purple', 'brown', 'CornFlowerBlue', 'DarkBlue', 'Crimson', 'Lime', 'Ivory', 'Gold'];
         scope.toggle = function() { scope.colorToggle = !scope.colorToggle };
 
         scope.currentText = {};
@@ -25,7 +25,7 @@ angular.module('tshirtDesignLabApp')
           'currentText.width,    currentText.scaleX,' +
           'currentText.scaleY,   currentText.fontWeight, ' +
           'currentText.fontStyle]', function(newVal) {
-          if (scope.currentText.type == 'text') {
+          if (scope.currentText.type === 'text') {
             scope.currentText.setCoords();
             scope.canvas.renderAll();
           }
@@ -33,7 +33,7 @@ angular.module('tshirtDesignLabApp')
 
         // Since watchCollection does not keep track of old correctly (AngularJS bug as of 1.2.5)
         scope.$watch('currentText.fontSize', function(newVal, oldVal) {
-          if (scope.currentText.type == 'text') {
+          if (scope.currentText.type === 'text') {
             if (!angular.isNumber(scope.currentText.fontSize)) scope.currentText.fontSize = oldVal;
             scope.currentText.setCoords();
             scope.canvas.renderAll();
